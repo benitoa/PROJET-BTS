@@ -1,0 +1,258 @@
+#rose /*la ligne rose decorative*/ {
+	position: relative;
+	top: 135px;
+	border-top: solid;
+	border-width: 2px;
+	border-color: #FB2BAF;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+#image             img /*mise en page de l'image de villepinte*/ {
+	margin-bottom: 3px;
+	margin-left: 10px;
+	position: relative;
+}
+
+#barre                       li /*mettre en ligne le menu*/ {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+#barre                       li                       a
+	/*modification de la police du menu*/ {
+	color: #0099A1;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+}
+
+#barre li a:hover /* Apparence au survol des liens */ {
+	color: #FA9F01;
+}
+
+#page /*mise en page de toute la section*/ {
+	width: 960px;
+	margin: 0px auto;
+	/*creation de la ligne bleu*/
+	position: relative;
+	border-left: solid;
+	border-width: 2px;
+	border-color: #0099A1;
+	height: 100%;
+}
+
+#champ form p {
+	width: 150px;
+	padding-top: 20px;
+	margin: auto;
+}
+
+#champ {
+	padding-top: 50px;
+}
+
+footer {
+	padding-top: 500px;
+}
+
+#inscription {
+	text-align: left;
+	width: 300px;
+	margin: 0px auto;
+	color: #0099A1;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+#inscription               form               label{
+	width: 300px;
+	margin: 0px auto;
+    display: block;
+   
+
+
+}
+#inscription               form              input{
+	width: 300px;
+	margin: 0px auto;
+   
+
+
+
+}
+#image            a {
+	margin-left: 600px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+table {
+	border-collapse: collapse;
+	/* Les bordures du tableau seront coll�es (plus joli) */
+}
+
+td {
+	border: 1px solid #0099A1;
+	background-color: white;
+	color: black;
+	width: 150px
+}
+
+td:hover {
+	background-color: #0099A1;
+	/*opacity:0.48;*/
+}
+
+th {
+	border: 1px solid #0099A1;
+	background-color: white;
+	color: black;
+	width: 150px
+}
+
+#liste {
+	width: 300px;
+	margin: 0px auto;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+#liste          a {
+	text-decoration: none;
+	font-family: Arial;
+}
+
+#android     a     img {
+	padding-top: 50px;
+	display: inline block;
+	padding-left: 150px;
+	margin: auto;
+}
+
+#listeE {
+	width: 900px;
+	margin: auto;
+	text-align: center;
+}
+
+#barre li ul {
+	display: none;
+	left: -50px;
+	top: 160px
+}
+
+#barre  li ul {
+	display: none;
+	margin-left: 402px;
+	top: 160px
+}
+
+#barre li:hover ul {
+	display: block;
+}
+
+#barre li:hover ul {
+	float: none;
+}
+
+#barre li ul {
+	position: absolute;
+}
+
+#barre li a {
+	font-size: 14px;
+	border-color: white;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+#radio {
+	padding-top: 20px;
+	color: red;
+	text-align: center;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#inscription form  span {
+	text-decoration: none;
+	font-family: Arial;
+	color: red;
+	font-weight: bold;
+}
+
+#load {
+	position: absolute;
+	bottom: 186px;
+	right: 350px;
+	display: none;
+}
+
+#load2 {
+	position: absolute;
+	bottom: 688px;
+	right: 350px;
+	display: none;
+}
+
+#load3 {
+	position: absolute;
+	bottom: 709px;
+	right: 350px;
+	display: none;
+}
+
+#liste ul li a {
+	list-style-type: none;
+	color: #000;
+	font-family: Arial;
+}
+
+#liste ul li {
+	list-style-type: none;
+}
+
+#liste ul li:hover a {
+	color: #FA9F01;
+}
+
+#bus{
+width:300px;
+margin-left:100px;
+}
+#tableauBus{
+margin-top: 15px;
+margin-left:163px;
+	
+}
+#box{
+	positon:absolute;
+	top:100px;
+	left:100px
+}
+#liste-enfant h1,#stat,#titre{
+	color: #0099A1;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	
+	
+}
+#lien_page{
+	color: #0099A1;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: 30px;
+
+}
+

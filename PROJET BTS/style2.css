@@ -1,0 +1,53 @@
+#search, #resultat, #resultat ul {
+		margin: 0;
+	padding: 0;
+	border: 0;
+	width: 300px;
+	line-height: 1.5em
+	
+}
+
+#resultat li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#resultat ul li a {
+	color: #000;
+	text-decoration: none;
+	width: 300px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	border: 1px solid #000;
+	border-top: 0px;
+}
+
+#search {
+	border: 1px solid #000;
+}
+
+#resultat {
+	position: relative;
+	bottom: 18px;
+}
+
+#resultat ul li a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+#load {
+	position:absolute;
+	left:500px;
+	bottom:470px;
+	
+}
+
+#resultat ul {
+	display: none;
+}
+h1{
+	font-size:1.2em;
+}
